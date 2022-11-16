@@ -39,7 +39,7 @@ class LinkedList {
     head() {
         return this.list;
     }
-    
+
     tail() {
         // If the head node is null return null
         if (this.list == null) return null;
@@ -161,8 +161,8 @@ list.insertAt(10000, 50);   // Does nothing (index does not exist)
 console.log(list.toString());
 console.log(`Size: ${list.size()} nodes`);  // Returns 6
 
-console.log(list.contains(9))    // True
-console.log(list.contains(100))  // False
+console.log(list.contains(9));    // True
+console.log(list.contains(100));  // False
 
 console.log(list.find(7));   // Returns index 1
 console.log(list.find(22));  // null
